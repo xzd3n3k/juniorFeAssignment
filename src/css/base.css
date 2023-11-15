@@ -1,0 +1,18 @@
+h1, h2, h3, h4, h5, h6 {
+  @apply font-bold;
+}
+
+h1 {
+  @apply text-xxl;
+  @apply mb-6;
+}
+
+h2 {
+  @apply text-xl;
+  @apply mb-4;
+}
+
+h3 {
+  @apply text-lg;
+  @apply mb-2;
+}

@@ -1,0 +1,26 @@
+{
+"compilerOptions": {
+    "allowJs": true,
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "incremental": true,
+    "isolatedModules": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "jsx": "preserve",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noEmit": true,
+    "paths": {
+    "@/*": ["./*"],
+    },
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "target": "es2015",
+},
+"include": ["**/*.ts", "**/*.tsx", "vite.config.ts", "tailwind.config.ts", "postcss.config.ts"],
+"exclude": ["node_modules", "tasks/**/*"]
+}

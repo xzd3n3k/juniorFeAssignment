@@ -1,0 +1,27 @@
+.button {
+  @apply text-black font-normal cursor-pointer bg-white;
+  @apply border-black border-solid border rounded-sm;
+  @apply px-4 py-2;
+  @apply transition duration-default ease-in-out;
+
+  @apply hover:bg-gray-light-3 hover:text-gray border-gray;
+  @apply disabled:cursor-not-allowed disabled:bg-gray-light-2 disabled:border-gray disabled:text-gray;
+}
+
+.primary {
+  @apply text-yellow border-yellow;
+  @apply hover:border-yellow-dark-2 hover:text-yellow-dark-2 hover:bg-yellow-light-1;
+}
+
+.secondary {
+  @apply text-red border-red;
+  @apply hover:border-red-dark hover:text-red-dark hover:bg-red-light;
+}
+
+.large {
+  @apply text-xl;
+}
+
+.pill {
+  @apply rounded-full;
+}

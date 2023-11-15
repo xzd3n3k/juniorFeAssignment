@@ -1,0 +1,8 @@
+.home {
+  @apply mx-auto my-5 p-8;
+  @apply border border-gray-light-1;
+  @apply rounded-lg;
+  @apply shadow-lg;
+
+  width: 70dvw;
+}
