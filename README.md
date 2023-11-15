@@ -1,11 +1,11 @@
 # Zadání testu Frontend Junior v Regiojetu
 
-- forkněte si zde uvedený repozitář (https://github.com/Vylda/junior)
+- forkněte si zde uvedený repozitář (<https://github.com/Vylda/junior>)
 - proveďte úkoly podle zadání v následující kapitole
   - výsledky úkolů nechte v odpovídajících složkách
 - po dokončení úkolů
-  - soubory nahrejte na svůj Gitlab / Github a udělte přístup uživateli Vylda (vilem.lipold@seznam.cz)
-  - dokončení mi oznamte na e-mail vilem.lipold@studentagency.cz
+  - soubory nahrejte na svůj Gitlab / Github a udělte přístup uživateli Vylda (<vilem.lipold@seznam.cz>)
+  - dokončení mi oznamte na e-mail <vilem.lipold@studentagency.cz>
   - pokud nezvládnete všechny úkoly, nevadí, na git nahrejte, co jste stihli
   - v případě problémů a dotazů volejte na +420 606 753 180 (8.00 – 21.00)
 
