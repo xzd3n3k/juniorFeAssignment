@@ -3,7 +3,7 @@
 - forkněte si zde uvedený repozitář (<https://github.com/Vylda/junior>)
 - proveďte úkoly podle zadání v následující kapitole
   - výsledky úkolů nechte v odpovídajících složkách
-- po dokončení úkolů
+- po dokončení úkolů (dokončete do **sedmi dní** od zadání)
   - soubory nahrejte na svůj Gitlab / Github a udělte přístup uživateli Vylda (<vilem.lipold@seznam.cz>)
   - dokončení mi oznamte na e-mail <vilem.lipold@studentagency.cz>
   - pokud nezvládnete všechny úkoly, nevadí, na git nahrejte, co jste stihli
