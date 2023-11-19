@@ -1,0 +1,14 @@
+.column {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.row {
+    font-size: 15px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+    border-radius: 5px;
+
+}

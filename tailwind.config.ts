@@ -12,7 +12,7 @@ const customValues = {
 const settings = {
   mode: 'jit',
   content: [
-    './index.html',
+    './step_1.html',
     './src/**/*.{js,ts,jsx,tsx,css}'
   ],
   media: false, // or 'media' or 'class'

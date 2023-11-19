@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 2em;
+    justify-content: center;
+}
+
+.element {
+    flex-basis: 30%;
+    display: inline-block;
+    text-align: center;
+    border: 1px solid #ccc;
+    padding-bottom: 1em;
+    padding-top: 1em;
+}

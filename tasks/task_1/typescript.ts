@@ -1,4 +1,17 @@
-const starobrnoMedium = {
+type TStarobrnoMedium = {
+  name: string;
+  volume: number;
+  alc: number;
+  onStock: boolean;
+  ingredients: {
+    [key: string]: number | string;
+  };
+
+  drunkedMe(pieces: number): boolean;
+  iGonnaPay(): boolean | undefined;
+};
+
+const starobrnoMedium: TStarobrnoMedium = {
   name: 'Medium',
   volume: 0.5,
   alc: 4.7,
