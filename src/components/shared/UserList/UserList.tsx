@@ -1,4 +1,6 @@
 import {ReactElement} from 'react';
+// pokud byste vytvořil soubor ./components/index.ts
+// tak by stačilo importovat import { UserCard } from './components'
 import UserCard from './components/UserCard/UserCard';
 import style from './UserList.module.css';
 
@@ -28,11 +30,20 @@ type User = {
 interface IProps {
     users: User[];
 }
+// řádek nad IProps
+// osobně ppreferuji generika Array<User> místo User[]
 
+/*
+const UserList = ({ users, ...props }: IProps): ReactElement => (
+  <div>
+*/
+// proč props, když je nepoužíváte
 const UserList = ({ users, ...props }: IProps): ReactElement => {
 
     return (
         <div>
+            {/* tady by se spíše šikla tabulka z hlediska sémantiky, muduly třídy než tailwindové trídy */}
+            {/* clsx('grid grid-cols-3 text-center', style.header) */}
             <div className={'grid grid-cols-3 text-center ' + style.header}>
                 <h2>Name</h2>
                 <h2>Email</h2>

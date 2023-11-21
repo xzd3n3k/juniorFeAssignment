@@ -3,6 +3,9 @@ body, html {
     margin: 0;
 }
 
+/*
+  barevně oddělovat
+*/
 .container {
     display: flex;
     align-items: center;

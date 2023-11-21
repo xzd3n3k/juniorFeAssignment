@@ -1,9 +1,14 @@
+/* tailwind tohle taky umí */
 .column {
     max-width: 100%;
     overflow: hidden;
     text-overflow: ellipsis;
 }
 
+/*
+  prázdný řádek před }
+  chybí koncový prázdný řádek
+*/
 .row {
     font-size: 15px;
     padding: 10px;

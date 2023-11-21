@@ -1,6 +1,9 @@
+// mezery u {}
 import {ReactElement} from 'react';
 import style from './UserCard.module.css';
 
+// proč se tady typ neopakuje, proč ho neimportujete ze samostatného souboru?
+// pro tuto úlohu zbytečně složitý objekt
 type User = {
     id: number;
     name: string;
@@ -28,7 +31,17 @@ interface IProps {
     user: User;
 }
 
+/*
+  proč props, když se nepoužívají
+  const { address: { geo: { lat, lng }}, email, name, phone } = user;
+*/
 const UserCard = ({ user, ...props }: IProps): ReactElement => {
+    /*
+        Neinteraktivní element použitá jako odkaz je špatně, protože chybí jeho semantika.
+        stačí obyčejný odkaz
+        složitý výpisy v adrese řeší destrukturalizace.
+        className={clsx(...)}
+    */
     return (
         <div onClick={() => {window.open(`https://mapy.cz/turisticka?source=coor&id=${user.address.geo.lng}%2C${user.address.geo.lat}&x=${user.address.geo.lng}&y=${user.address.geo.lat}z=16`, '_blank');}}
              className={'grid grid-cols-3 hover:bg-blue-light text-center cursor-pointer select-none ' + style.row}>

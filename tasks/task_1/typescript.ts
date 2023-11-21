@@ -1,8 +1,10 @@
+// spíše TPivo
 type TStarobrnoMedium = {
   name: string;
   volume: number;
   alc: number;
   onStock: boolean;
+  // ingredients: Record<string, number | string>;
   ingredients: {
     [key: string]: number | string;
   };
